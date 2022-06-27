@@ -40,7 +40,6 @@ var URL = URL_1
 
 private fun Scope.retrofitBuilder(): Retrofit {
     return Retrofit.Builder()
-//        .baseUrl("http://210.211.99.18:8009/api/")
 //        .baseUrl("http://api.weatherstack.com/")
         .baseUrl("https://jsonplaceholder.typicode.com")
 //        .baseUrl("https://reqbin.com/sample/post/")

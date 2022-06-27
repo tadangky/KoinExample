@@ -33,10 +33,6 @@ fun single(function: () -> Unit) {
 
 }
 
-val URL_1 = "http://210.211.99.18:8009/api/"
-val URL_2 = "https://jsonplaceholder.typicode.com"
-var URL = URL_1
-
 
 private fun Scope.retrofitBuilder(): Retrofit {
     return Retrofit.Builder()
